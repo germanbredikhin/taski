@@ -58,4 +58,4 @@ jobs:
         with:
           context: ./backend/
           push: true
-          tags: germanbredihkin/taski_backend:latest
+          tags: germanbredikhin/taski_backend:latest
