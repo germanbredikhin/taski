@@ -22,7 +22,7 @@ services:
       - static:/frontend_static
     command: cp -r /app/build/. /frontend_static/.
   gateway:
-    image: germanbredikhin/taski_gateaway
+    image: germanbredikhin/taski_gateway
     volumes:
       - static:/staticfiles/
     ports:
